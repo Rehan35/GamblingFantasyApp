@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EDECB5592D0EB3B800EC243C /* High Stakes */ = {
+		ED52B46C2D113E4A00F271BA /* High Stakes */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "High Stakes";
 			sourceTree = "<group>";
@@ -75,7 +75,7 @@
 		EDECB54E2D0EB3B800EC243C = {
 			isa = PBXGroup;
 			children = (
-				EDECB5592D0EB3B800EC243C /* High Stakes */,
+				ED52B46C2D113E4A00F271BA /* High Stakes */,
 				EDECB56D2D0EB3B800EC243C /* High StakesTests */,
 				EDECB5772D0EB3B800EC243C /* High StakesUITests */,
 				EDECB5582D0EB3B800EC243C /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EDECB5592D0EB3B800EC243C /* High Stakes */,
+				ED52B46C2D113E4A00F271BA /* High Stakes */,
 			);
 			name = "High Stakes";
 			packageProductDependencies = (
@@ -195,6 +195,9 @@
 			);
 			mainGroup = EDECB54E2D0EB3B800EC243C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				ED52B4462D113DCD00F271BA /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EDECB5582D0EB3B800EC243C /* Products */;
 			projectDirPath = "";
@@ -406,7 +409,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -414,7 +417,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GamblingFantasy.HighStakes.High-Stakes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
@@ -445,7 +448,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -453,7 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GamblingFantasy.HighStakes.High-Stakes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
@@ -591,6 +594,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED52B4462D113DCD00F271BA /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/markiv/SwiftUI-Shimmer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = EDECB54F2D0EB3B800EC243C /* Project object */;
 }
